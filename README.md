@@ -7,6 +7,9 @@
   <img src="https://img.shields.io/github/languages/count/joschonarth/dt-money?style=for-the-badge&color=1F8459&labelColor=1C1E26" alt="languages-count">
 </p>
 
+![dt-money](https://github.com/user-attachments/assets/e0551047-7a6a-496b-a20a-ed1171212729)
+
+
 ## 📖 Visão Geral
 
 **DT Money** é uma aplicação web de controle financeiro que permite aos usuários registrar suas receitas e despesas, visualizar o saldo total e filtrar transações. Ideal para organizar finanças pessoais de forma simples e eficiente.
