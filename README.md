@@ -1,54 +1,92 @@
-# React + TypeScript + Vite
+<h1 align="center"><img src="./public/icon.svg" width="22" /> DT Money</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center"><i>Aplicação de controle financeiro pessoal, desenvolvida com React, TypeScript e Vite.</i>
+  <br/><br/>
+  <img src="https://img.shields.io/github/last-commit/joschonarth/dt-money?style=for-the-badge&color=1F8459&labelColor=1C1E26" alt="last-commit">
+  <img src="https://img.shields.io/github/languages/top/joschonarth/dt-money?style=for-the-badge&color=1F8459&labelColor=1C1E26" alt="top-language">
+  <img src="https://img.shields.io/github/languages/count/joschonarth/dt-money?style=for-the-badge&color=1F8459&labelColor=1C1E26" alt="languages-count">
+</p>
 
-Currently, two official plugins are available:
+## 📖 Visão Geral
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**DT Money** é uma aplicação web de controle financeiro que permite aos usuários registrar suas receitas e despesas, visualizar o saldo total e filtrar transações. Ideal para organizar finanças pessoais de forma simples e eficiente.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ⚛️ **React** – Biblioteca para construção da interface.
+- 🟦 **TypeScript** – Superset de JavaScript com tipagem estática.
+- ⚡ **Vite** – Ferramenta de bundling rápida e moderna.
+- 📋 **React Hook Form** – Gerenciamento de formulários reativo.
+- 💅 **Styled-Components** – Estilização via CSS-in-JS.
+- 🧱 **Radix UI** – Componentes acessíveis e sem estilo, com foco em usabilidade e acessibilidade nativa (ARIA).
+- 📦 **Zod** – Validação de dados de formulários.
+- 🎨 **Phosphor React** – Ícones modernos e personalizáveis.
+- 🌐 **Axios** – Cliente HTTP para requisições à API.
+- 🔍 **use-context-selector** – Otimização de performance no contexto do React.
+- 🛠️ **JSON Server** – API REST fake para desenvolvimento.
+- 🧹 **ESLint** – Padronização e análise de código.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## ⚙️ Funcionalidades
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **📥 Registro de transações**: Adicione receitas e despesas rapidamente.
+- **📊 Resumo financeiro**: Veja entradas, saídas e saldo total em tempo real.
+- **🔎 Filtro de busca**: Localize transações por descrição.
+- **🗂️ Categorização**: Classifique transações por tipo e data.
+- **💾 Persistência**: Dados armazenados com `json-server`.
+- **🎨 Visual moderno**: Interface responsiva com tema escuro.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Como Executar o Projeto
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### 📋 Pré-requisitos
+
+- 🟩 [Node.js 20+](https://nodejs.org/)
+- 📦 [npm 10+](https://www.npmjs.com/)
+
+### 🔧 Instalação
+
+1. Clone o repositório:
+
+    ```bash
+    git clone https://github.com/joschonarth/dt-money.git
+    ```
+
+2. Acesse a pasta do projeto:
+
+    ```bash
+    cd dt-money
+    ```
+
+3. Instale as dependências:
+
+    ```bash
+    npm install
+    ```
+
+### ▶️ Execução
+
+1. Inicie o servidor da API fake:
+
+    ```bash
+    npm run dev:server
+    ```
+
+2. Em outro terminal, inicie o app React:
+
+    ```bash
+    npm run dev
+    ```
+
+Acesse o projeto em: [http://localhost:5173](http://localhost:5173)
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests com melhorias ou correções. 💡
+
+## ⭐ Apoie este Projeto
+
+Se curtiu o projeto, deixe uma ⭐ aqui no GitHub!
+
+## 📞 Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joschonarth/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joschonarth@gmail.com)
