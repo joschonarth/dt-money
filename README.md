@@ -9,7 +9,6 @@
 
 ![dt-money](https://github.com/user-attachments/assets/e0551047-7a6a-496b-a20a-ed1171212729)
 
-
 ## 📖 Visão Geral
 
 **DT Money** é uma aplicação web de controle financeiro que permite aos usuários registrar suas receitas e despesas, visualizar o saldo total e filtrar transações. Ideal para organizar finanças pessoais de forma simples e eficiente.
@@ -22,7 +21,7 @@
 - 📋 **React Hook Form** – Gerenciamento de formulários reativo.
 - 💅 **Styled-Components** – Estilização via CSS-in-JS.
 - 🧱 **Radix UI** – Componentes acessíveis e sem estilo, com foco em usabilidade e acessibilidade nativa (ARIA).
-- 📦 **Zod** – Validação de dados de formulários.
+- 💎 **Zod** – Validação de dados de formulários.
 - 🎨 **Phosphor React** – Ícones modernos e personalizáveis.
 - 🌐 **Axios** – Cliente HTTP para requisições à API.
 - 🔍 **use-context-selector** – Otimização de performance no contexto do React.
